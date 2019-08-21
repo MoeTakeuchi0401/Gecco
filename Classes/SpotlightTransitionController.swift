@@ -48,7 +48,7 @@ class SpotlightTransitionController: NSObject, UIViewControllerAnimatedTransitio
             transitionContext.completeTransition(true)
         }
         { // In transation
-            UIView.animate(withDuration: duration, delay: 0, options: UIViewAnimationOptions(),
+            UIView.animate(withDuration: duration, delay: 0, options: UIView.AnimationOptions(),
                 animations: {
                     destination.view.alpha = 1.0
                 },
