@@ -107,7 +107,7 @@ extension SpotlightView {
         }
         animation.toValue = endPath.cgPath
         animation.isRemovedOnCompletion = false
-        animation.fillMode = kCAFillModeForwards
+        animation.fillMode = CAMediaTimingFillMode.forwards
         return animation
     }
 }
