@@ -37,17 +37,6 @@ Please refer to [GeccoExample](https://github.com/yukiasai/Gecco/tree/master/Gec
 ```
 pod 'Gecco'
 ```
-#### Carthage
-
-```
-github "yukiasai/Gecco"
-```
-
-## Feature
-
-- [ ] Simple notes label　on the spotlight
-- [ ] Rotation
-- [ ] Swift2.3
 
 ## License
 
